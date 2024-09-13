@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TomiServis - Vaše riešenie pre herné PC, skladanie a opravy poèítaèov.">
+    <title>TomiServis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TomiServis - Herné PC na mieru a opravy</h1>
+        <nav>
+            <a href="#services">Služby</a>
+            <a href="#about">O nás</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+    </header>
+
+    <section id="services">
+        <h2>Naše služby</h2>
+        <p>Specializujeme sa na skladanie herných PC, predaj komponentov a opravy poèítaèov.</p>
+    </section>
+
+    <section id="about">
+        <h2>O nás</h2>
+        <p>TomiServis je lokálny expert na výkonné PC. Skladáme, opravujeme a optimalizujeme PC systémy na mieru pod¾a potrieb hráèov a profesionálov.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Email: info@tomiservis.sk</p>
+        <p>Telefón: +421 123 456 789</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TomiServis - Všetky práva vyhradené.</p>
+    </footer>
+</body>
+</html>
