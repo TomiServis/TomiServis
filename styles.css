@@ -46,3 +46,10 @@ button {
 button:hover {
     background-color: #45a049; /* Tmavšia zelená pri hover */
 }
+
+.about-img {
+    max-width: 100%; /* Uistite sa, že obrázok sa zmestí do kontajnera */
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
