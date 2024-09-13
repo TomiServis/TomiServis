@@ -4,52 +4,38 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
     background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    color: white;
 }
-nav a {
-    color: #fff;
-    margin: 0 15px;
+
+header a {
+    color: #f4f4f4;
     text-decoration: none;
+    margin: 0 15px;
 }
+
+header a:hover {
+    text-decoration: underline;
+}
+
 section {
     padding: 20px;
-    text-align: center;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
 }
+
 footer {
     background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-button {
-    background-color: #4CAF50; /* Zelená */
     color: white;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 5px 2px;
-    cursor: pointer;
-    border-radius: 5px;
 }
 
-button:hover {
-    background-color: #45a049; /* Tmavšia zelená pri hover */
+img {
+    border-radius: 8px;
 }
 
-.about-img {
-    max-width: 100%; /* Uistite sa, že obrázok sa zmestí do kontajnera */
-    height: auto;
-    border-radius: 10px;
-    margin-top: 10px;
+.form-control {
+    margin-bottom: 10px;
 }
